@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Raleway&display=swap');
+
+.game {
+  max-width: 800px;
+  margin: 120px auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 6fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "title title"
+    "result-panel result-panel"
+    "player-1 player-2"
+    "btn btn";
+  grid-column-gap: 25px;
+  grid-row-gap: 10px;
+}
+
+// div {
+//   border: 1px solid black;
+// }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.game__title {
+  justify-self: center;
+  grid-area: title;
+}
+
+.game__result-panel {
+  justify-self: center;
+  grid-area: result-panel;
+  font-family: 'Exo', sans-serif;
+  font-size: 20px;
+}
+
+.game__player-1 {
+  grid-area: player-1;
+}
+
+.game__player-2 {
+  grid-area: player-2;
+}
+
+.game__btn {
+  grid-area: btn;
+  font-family: 'Exo', sans-serif;
+  font-size: 20px;
+  background-color: #4a536b;
+  color: white;
+  border-radius: 15px;
+  
+}
+
+.game__player-name {
+  padding: 5px 0px 0px 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-size: 18px;
+}

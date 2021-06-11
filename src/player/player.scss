@@ -1,0 +1,31 @@
+//rock https://www.pngfind.com/pngs/m/56-563277_rock-paper-scissors-png-rock-paper-scissors-clipart.png
+//scissors https://www.pinclipart.com/picdir/middle/536-5360227_scissors-hand-rock-paper-scissors-png-clipart.png
+//paper https://i.dlpng.com/static/png/6409526_preview.png 600x600
+
+$color: #aed6dc;
+
+.player {
+  padding: 120px 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.player_null {
+  background: $color url("https://icon-library.com/images/question-icon/question-icon-19.jpg") center no-repeat;
+}
+
+.player_rock {
+  background: $color url("https://static.thenounproject.com/png/88661-200.png") center no-repeat;
+}
+
+.player_paper {
+  background: $color url("https://static.thenounproject.com/png/88662-200.png") center no-repeat;
+}
+
+.player_scissors {
+  background: $color url("https://static.thenounproject.com/png/88666-200.png") center no-repeat;
+}
+
+.player_winner {
+  box-shadow: 0 2px 20px green;
+}

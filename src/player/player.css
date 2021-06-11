@@ -1,0 +1,25 @@
+.player {
+  padding: 120px 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.player_null {
+  background: #aed6dc url("https://icon-library.com/images/question-icon/question-icon-19.jpg") center no-repeat;
+}
+
+.player_rock {
+  background: #aed6dc url("https://static.thenounproject.com/png/88661-200.png") center no-repeat;
+}
+
+.player_paper {
+  background: #aed6dc url("https://static.thenounproject.com/png/88662-200.png") center no-repeat;
+}
+
+.player_scissors {
+  background: #aed6dc url("https://static.thenounproject.com/png/88666-200.png") center no-repeat;
+}
+
+.player_winner {
+  box-shadow: 0 2px 20px green;
+}
