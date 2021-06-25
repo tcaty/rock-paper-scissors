@@ -1,4 +1,4 @@
-#Simple rock paper scissors game
+# Simple rock paper scissors game
 
 -----------Start screen-----------
 ![image](https://user-images.githubusercontent.com/79706809/121780556-8f5bc600-cba9-11eb-8a9b-6b40d72e6596.png)
